@@ -1,10 +1,11 @@
-
-import { useState } from 'react'
 import './App.css'
+import Nav from './components/Nav'
 
 export default function App() {
 
   return (
-    <h1>testing testing </h1>
+    <div>
+      <Nav></Nav>
+    </div>
   )
 }
