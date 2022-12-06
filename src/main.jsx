@@ -1,7 +1,7 @@
-import './styles/scss/main.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './styles/fontawesome.css'
+import './styles/scss/main.scss'
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { MemoryRouter } from 'react-router-dom';

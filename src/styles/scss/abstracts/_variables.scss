@@ -26,12 +26,22 @@ $darkBlueTxt : hsl(200, 15%, 8%); //(Light Mode Text)
 $darkGrayInput : hsl(0, 0%, 52%); //(Light Mode Input)
 $lightGrayBG : hsl(0, 0%, 98%); //(Light Mode Background)
 $white : hsl(0, 0%, 100%); //(Dark Mode Text & Light Mode Elements)
+.theme-dark{
+--elements: hsl(209, 23%, 22%);
+--background: hsl(207, 26%, 17%);
+--text: hsl(200, 15%, 8%);
+
+
+}
+.theme-light{
+
+}
 
 // ## Typography
 
 // ### Body Copy
 
-$defail-size: rem(16);
+$detail-size: rem(16);
 $home-size: rem(14);
 
 // ### Headings
