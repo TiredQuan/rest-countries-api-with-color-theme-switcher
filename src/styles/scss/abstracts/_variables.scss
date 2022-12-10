@@ -18,23 +18,17 @@ $desktop: 700px;
 // ## Colors
 
 // ### Neutral
-
-
-$darkBlueElem : hsl(209, 23%, 22%); //(Dark Mode Elements)
-$darkBlueBG : hsl(207, 26%, 17%); //(Dark Mode Background)
-$darkBlueTxt : hsl(200, 15%, 8%); //(Light Mode Text)
-$darkGrayInput : hsl(0, 0%, 52%); //(Light Mode Input)
-$lightGrayBG : hsl(0, 0%, 98%); //(Light Mode Background)
-$white : hsl(0, 0%, 100%); //(Dark Mode Text & Light Mode Elements)
 .theme-dark{
---elements: hsl(209, 23%, 22%);
+--elements: hsl(209, 23%, 22%); //FOR BOTH ELEMENTS AND INPUT
 --background: hsl(207, 26%, 17%);
---text: hsl(200, 15%, 8%);
-
-
+--text: hsl(0, 0%, 100%);
+--input:hsl(209, 23%, 22%);
 }
 .theme-light{
-
+--elements:hsl(0, 0%, 100%);
+--background:hsl(0, 0%, 98%);
+--text:hsl(200, 15%, 8%);
+--input:hsl(0, 0%, 52%);
 }
 
 // ## Typography
